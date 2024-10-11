@@ -14,7 +14,8 @@ struct SwiftfulThinkingBootcamp1App: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            GridBootcamp()
+          //  GridBootcamp()
+            BindingBootcamp()
         }
     }
 }
