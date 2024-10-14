@@ -29,6 +29,7 @@ struct SheetsBootcamp: View {
                     .background(Color.white.cornerRadius(10))
             })
             // we cant add another sheet, thats not possible
+            //Note - Dont add conditional checks in sheet, it doesnt work
             .sheet(isPresented: $showSheet, content: {
                 SecondScreen()
                 
